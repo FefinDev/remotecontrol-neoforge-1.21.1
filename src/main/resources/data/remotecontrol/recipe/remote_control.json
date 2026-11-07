@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " T ",
+    "IBI",
+    " R "
+  ],
+  "key": {
+    "T": { "item": "minecraft:redstone_torch" },
+    "I": { "item": "minecraft:iron_ingot" },
+    "B": { "item": "remotecontrol:control_block" },
+    "R": { "item": "minecraft:redstone" }
+  },
+  "result": {
+    "id": "remotecontrol:remote_control",
+    "count": 1
+  }
+}

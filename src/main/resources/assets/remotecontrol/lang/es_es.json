@@ -5,5 +5,6 @@
   "tooltip.remotecontrol.save_position": "Shift + Click: Guardar posición",
   "tooltip.remotecontrol.toggle": "Click normal: Activar/desactivar bloque guardado",
   "tooltip.remotecontrol.saved_position": "Guardado: %s, %s, %s",
-  "message.remotecontrol.position_saved": "Posición guardada: %s, %s, %s"
+  "message.remotecontrol.position_saved": "Posición guardada: %s, %s, %s",
+  "message.remotecontrol.invalid_block": "Solo puedes vincular un Bloque de Control"
 }

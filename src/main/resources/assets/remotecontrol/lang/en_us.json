@@ -5,5 +5,6 @@
   "tooltip.remotecontrol.save_position": "Shift + Click: Save position",
   "tooltip.remotecontrol.toggle": "Normal click: Toggle saved block",
   "tooltip.remotecontrol.saved_position": "Saved: %s, %s, %s",
-  "message.remotecontrol.position_saved": "Position saved: %s, %s, %s"
+  "message.remotecontrol.position_saved": "Position saved: %s, %s, %s",
+  "message.remotecontrol.invalid_block": "You can only link a Control Block"
 }

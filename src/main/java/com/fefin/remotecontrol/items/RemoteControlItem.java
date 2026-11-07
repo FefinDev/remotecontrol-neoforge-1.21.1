@@ -68,6 +68,11 @@ public class RemoteControlItem extends Item {
     }
 
     private static void savePosition(Level level, BlockPos pos, ItemStack stack, Player player) {
+        // Solo se puede vincular un Control Block: cualquier otro bloque se rechaza.
+        if (!(level.getBlockState(pos).getBlock() instanceof ControlBlock)) {
+            player.displayClientMessage(Component.translatable("message.remotecontrol.invalid_block"), true);
+            return;
+        }
         BlockPos saved = pos.immutable();
         stack.set(ModDataComponents.LINKED_POS.get(), saved);
         // Sonido unico: lo emite solo el servidor (player = null para que lo oiga tambien quien hizo clic).
