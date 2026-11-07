@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "powered=false": { "model": "remotecontrol:block/control_block_off" },
-    "powered=true": { "model": "remotecontrol:block/control_block_on" }
-  }
-}

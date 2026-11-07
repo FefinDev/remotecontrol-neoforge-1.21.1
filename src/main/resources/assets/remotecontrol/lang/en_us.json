@@ -1,9 +1,0 @@
-{
-  "itemGroup.remotecontrol": "RemoteControl",
-  "block.remotecontrol.control_block": "Control Block",
-  "item.remotecontrol.remote_control": "Remote Control",
-  "tooltip.remotecontrol.save_position": "Shift + Click: Save position",
-  "tooltip.remotecontrol.toggle": "Normal click: Toggle saved block",
-  "tooltip.remotecontrol.saved_position": "Saved: %s, %s, %s",
-  "message.remotecontrol.position_saved": "Position saved: %s, %s, %s"
-}
